@@ -1,11 +1,16 @@
 html
  { 
-    background-color: rgba(246, 246, 13, 0.612);
     scroll-behavior: smooth;
+    
    
 }
 body{
     font-family:sans-serif;
+    
+
+    background-image: url(jhon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1{
   font-family: serif;  
@@ -68,7 +73,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-.dark-mode {
-  background-color: black;
-  color: white;
+
+.color {
+  color: honeydew;
 }
